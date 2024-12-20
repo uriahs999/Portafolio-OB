@@ -112,7 +112,7 @@ body{
 
 .menu-icono{
     width: 25px;
-    margin-left: 350px;
+    margin-right: 10px;
 }
 
 .menu label{
@@ -289,6 +289,7 @@ transition: .2s linear;
     }
     .menu-1{
         display: flex;
+        text-align: left;
     }
     .menu-icono{
         display: flex;
@@ -299,7 +300,7 @@ transition: .2s linear;
    
     .menu label{
         display: flex;
-        position: absolute;
+       
     }
 
     .menu .navbar{
