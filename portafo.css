@@ -290,12 +290,16 @@ transition: .2s linear;
     .menu-1{
         display: flex;
     }
+    .menu-icono{
+        display: flex;
+    }
      .menu-2{
         display: none;
     } 
    
     .menu label{
-        display: initial;
+        display: flex;
+        position: absolute;
     }
 
     .menu .navbar{
