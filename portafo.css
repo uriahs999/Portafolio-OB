@@ -106,18 +106,18 @@ body{
 .menu .navbar ul li a:hover{
     color: #852476;
 }
-
 #menu{
     display: none;
 }
 
 .menu-icono{
     width: 25px;
+    margin-left: 350px;
 }
 
 .menu label{
     cursor: pointer;
-    display: none;
+    display: none; 
 }
 
 .menu-1{
