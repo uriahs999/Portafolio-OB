@@ -1,0 +1,23 @@
+/* .list{
+    text-align: center;
+    padding: 5px;
+}
+ */
+ input{ 
+    width: 80%;
+    height: 30px;
+    margin: 10px;
+    color: antiquewhite;
+    background: royalblue;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+} 
+.caja{
+    background-color: brown;
+    margin: 2rem;
+    padding: 2rem;
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+} 
