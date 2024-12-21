@@ -178,7 +178,7 @@ body{
 .Detalles .caja-contenedor .caja{
 flex: 1 1  5rem;
 background: linear-gradient(#f5deb3,40%, #000000);
-border: .1rem solid rgb(57, 56, 56);
+/* border: .1rem solid rgb(57, 56, 56); */
 box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .2);
 margin: 1.5rem;
 padding: 3rem 2rem;
@@ -206,6 +206,12 @@ transition: .2s linear;
     padding: 1rem 0;
 }
 
+.Detalles .caja-contenedor .caja .btn{
+    font-size: 1rem;
+    padding: 0.1rem 0;
+}
+
+
 .slider-txt2{
     font-size: 40px;
     color: #fff;
@@ -231,6 +237,7 @@ transition: .2s linear;
     cursor: pointer;
     /* box-shadow: 0.5rem 1rem rgb(57, 56, 56); */
     transition: all .3s linear;
+    text-align: center;
 }
 .btn:hover{
     transform: scale(1.1);
@@ -287,33 +294,68 @@ transition: .2s linear;
     margin-left: -237px;
     z-index: 5;
 }
-
 .sociales{
     display: flex;
 }
 
 .social1{
-    margin: 0 10px;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    
 }
 
+.social1 .mostrar{
+visibility: hidden;
+color: #f8f2f2;
+position: absolute;
+z-index: 1;
+opacity: 0;
+transition: opacity 0.3s;
+    margin: 0 1px;
+    height: 40px;
+    width: 40px;
+    margin-top: 60px;
+    margin-left: -55px;
+    text-align: center;
+    /* border-radius: 50%; */
+}
+
+.social1 .mostrar::after{
+content: "";
+position: absolute;
+border-style: solid;
+border-color: #f1eeee transparent transparent transparent;
+
+}
+
+.social1:hover .mostrar{
+    visibility: visible;
+    opacity: 1;
+}
 
 
 .social1 img{
     margin: 8px 0 0 10px;
 }
 
-.prue{
+
+/* .mostrar:hover{
     margin-left: 10px;
     text-align: center;
-}
+    color: #fff;
+} */
 
-.ape p{
+/* .prue{
+    margin-left: 10px;
+    text-align: center;
+    display: none;
+} */
+
+/* .ape p{
     margin-top: 55px;
     margin-left: 40px;
-}
+} */
+
 
 
 
