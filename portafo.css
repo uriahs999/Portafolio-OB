@@ -27,11 +27,11 @@ body{
 }
 
 .swiper-button-next{
-    color: #852476;
+    color: #c9b899;
 }
 
 .swiper-button-prev{
-    color: #852476;
+    color: #c9b899;
 }
 
 .swiper-pagination-bullet{
@@ -40,7 +40,7 @@ body{
 }
 
 .swiper-pagination-bullet-active{
-    background-color: #852476;
+    background-color: #c9b899;
 }
 
 .menu{
@@ -76,12 +76,12 @@ body{
     margin: 0 13px;
     height: 40px;
     width: 45px;
-    border: 1px solid #852476;
+    border: 1px solid #c9b899;
     border-radius: 50%;
 }
 
 .social:hover{
-    background-color: #852476;
+    background-color: #c9b899;
 
 }
 
@@ -104,7 +104,7 @@ body{
 }
 
 .menu .navbar ul li a:hover{
-    color: #852476;
+    color: #c9b899;
 }
 #menu{
     display: none;
@@ -177,7 +177,7 @@ body{
 }
 .Detalles .caja-contenedor .caja{
 flex: 1 1  5rem;
-background: linear-gradient(#f5deb3,40%, #000000);
+background: linear-gradient(#c9b899,40%, #000000);
 /* border: .1rem solid rgb(57, 56, 56); */
 box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .2);
 margin: 1.5rem;
