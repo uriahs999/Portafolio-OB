@@ -143,6 +143,15 @@ body{
     color: #fff;
     text-transform: uppercase;
     font-weight: 800;
+    text-align: center;
+}
+
+.slider-txt h4{
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
 }
 
 .slider-txt p{
