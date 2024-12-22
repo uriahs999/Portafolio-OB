@@ -177,7 +177,7 @@ body{
 }
 .Detalles .caja-contenedor .caja{
 flex: 1 1  5rem;
-background: linear-gradient(#c9b899,40%, #000000);
+background: linear-gradient(#c2b59d,40%, #000000);
 /* border: .1rem solid rgb(57, 56, 56); */
 box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .2);
 margin: 1.5rem;
